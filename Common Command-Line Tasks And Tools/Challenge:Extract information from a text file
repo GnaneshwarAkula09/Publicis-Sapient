@@ -1,1 +1,14 @@
+Challeneg: Parse information from a text file:
+1.Extract log.tar.gz
+2.Look for unauthroized connection attempts
+3.Extract the usernames an attacker tried to use
+4.Create a file containing these names(and make it organized)
+5.Use tools you've learned about to explore and process the log
 
+Solution:
+1.tar -xvf log.tar.gz
+2.less auth.log
+3.Extract usernames
+4.cat auth.loh | grep "input_userauth_request"
+  cat auth.loh | grep "input_userauth_request" awk '{print $9}'
+5.cat auth.loh | grep "input_userauth_request" awk '{print $9}' | sort -u >users.txt
