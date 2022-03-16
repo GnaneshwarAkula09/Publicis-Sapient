@@ -1,1 +1,16 @@
+Challenege:
+-->Spend some time working with files
+-->Create files with touch command or make copies of existing files
+-->Practice with links and directories
+-->Dont move the original files
+
+SOLUTIONS:
+1.file [range]* ->It will list out all the files starting from the alphabet present within the given range.
+file -s ->Used for special files.
+file * ->Used to list types of all the files.
+2.touch file_name
+3.mkdir command is used to create new directory
+rm command is used to delete a file
+
+
 
