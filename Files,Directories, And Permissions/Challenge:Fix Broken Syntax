@@ -1,7 +1,12 @@
-FIX BROKEN SYNTAX:
+FIX BROKEN SYNTAX:Correct these commands and describe the errors in each:
+-->cd ~/home/gyan
+-->LS /home
+-->mv ~/log.tar.gz home gyan
+-->chown ~/log.tar.gz
 
-1.cd ~/home/gyan -> cd ~ (or cd/home/gyan)
-2.LS /home -> ls /home
-3.mv ~/log.tar.gz home gyan ->  mv ~/log.tar.gz /home/gyan
-4.chown ~/log.tar.gz -> chown 644 ~/log.tar.gz
+SOLUTION:
+1.cd ~/home/gyan -> cd ~ (or cd/home/gyan) [To move to home directory we can use cd ~ or directly use cd/home/gyan]
+2.LS /home -> ls /home [LS command is captalized all commands need to be in lowercase because command names are case sensitive]
+3.mv ~/log.tar.gz home gyan ->  mv ~/log.tar.gz /home/gyan [move commands take ony two arguments but we are taking three,so we need to convert last two arguments into path]
+4.chown ~/log.tar.gz -> chown 644 ~/log.tar.gz [ocatal representation need to be present to apply permission of the file]
 
