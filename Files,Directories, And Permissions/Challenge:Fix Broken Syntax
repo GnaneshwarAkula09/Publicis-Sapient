@@ -1,1 +1,7 @@
+FIX BROKEN SYNTAX:
+
+1.cd ~/home/gyan -> cd ~ (or cd/home/gyan)
+2.LS /home -> ls /home
+3.mv ~/log.tar.gz home gyan ->  mv ~/log.tar.gz /home/gyan
+4.chown ~/log.tar.gz -> chown 644 ~/log.tar.gz
 
