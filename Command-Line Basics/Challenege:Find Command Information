@@ -4,3 +4,8 @@ Challenge:
 3.What command would i use to search for files in a directory hierarchy?
 4.Which option would i use with the ls command to output a comma-seperated list of files and directories?
 
+Solution:
+1.Using man stat,it will show file statistics for myfile.txt
+2.Usind man df,it shows disk utilization of the root file system in human readable way.
+3.Apropos command is used to search for files in directory hierarchy.
+4.Using man ls, we can find -m option to show the output in a comma-seperated list
